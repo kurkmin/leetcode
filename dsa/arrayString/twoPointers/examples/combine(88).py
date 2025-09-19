@@ -1,6 +1,6 @@
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
-        # Modify nums1 instead of creating a new array !
+        # Modify nums1 instead of creating a new array ! 
         i = j = 0
         ans = []
         while i < m and j < n:
